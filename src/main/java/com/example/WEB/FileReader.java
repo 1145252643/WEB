@@ -9,7 +9,7 @@ public class FileReader{
         String rt=new String(helloArray);
 
         try {
-            File file=new File("./" +name + ".txt");
+            File file=new File("./vcode/" +name + ".txt");
             FileInputStream f1=new FileInputStream(file);//这里需要进行抛出异常处理
             for (int i = 0; i <= 5; i++) {
                 helloArray[i]=(char)(f1.read());
