@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>WEB</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>v0.1</version>
 	<name>WEB</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Amort的WEB项目</description>
 	<properties>
 		<java.version>18</java.version>
 		<repackage.classifier/>
