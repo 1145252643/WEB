@@ -15,7 +15,7 @@ public class FileWriter {
         }
 
     public void WriteFile(String name,String code)  throws FileNotFoundException{
-        File file=new File("./vocde/" +name + ".txt");
+        File file=new File("./vcode/" +name + ".txt");
         FileOutputStream f1=new FileOutputStream(file);//(file,true)，这里有true的话，代表可以在文件后面追加内容
         byte[] buff=code.getBytes();//将字符串转换为字节数组
         try {
