@@ -30,9 +30,14 @@ public class Application {
 
 
     @GetMapping("/reg/Reg")
-    public void Reg(String userName,String password,String email,String vcode) throws Exception {
+    public void Reg(String userName,String password,String email,String vcode) {
         RegisterServlet test=new RegisterServlet();
         test.doPost(userName,password,email,vcode);
+    }
+
+    @GetMapping("/")
+    public void index() {
+
     }
 
 
